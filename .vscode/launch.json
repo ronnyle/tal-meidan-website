@@ -1,0 +1,20 @@
+// .vscode/launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Jekyll Site",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4000",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "Serve Jekyll Site",
+            "postDebugTask": "terminateAllTasks",
+            "presentation": {
+                "hidden": false,
+                "group": "",
+                "order": 1
+            }
+        }
+    ]
+}
