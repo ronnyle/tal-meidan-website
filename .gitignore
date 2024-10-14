@@ -1,1 +1,55 @@
-node_modules
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules and dependencies
+node_modules/
+
+# Compiled CSS
+assets/css/main.css
+
+# Jekyll generated site and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Sass cache
+.sass-cache/
+
+# Bundler dependencies
+/vendor/bundle/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Mac specific metadata files
+.DS_Store
+
+# Other IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# Tailwind CSS build artifacts
+tailwind.config.js
+postcss.config.js
+
+# Yarn lock file (if you're using yarn, and prefer not to commit lock files)
+yarn.lock
+
+# NPM package-lock file (if you prefer not to commit lock files)
+package-lock.json
+
+# Coverage reports
+coverage/
+
+# System Files
+$RECYCLE.BIN/
