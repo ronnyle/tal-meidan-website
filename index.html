@@ -3,17 +3,30 @@ layout: default
 title: Home
 ---
 
-<!-- Hero Image -->
-<section class="w-full">
-    <img src="/images/hero.jpg" alt="Hero Image" class="w-full h-auto">
-</section>
-
 <!-- Navigation Links -->
-<nav class="my-8">
-    <ul class="flex flex-col items-center space-y-4">
+<nav class="flex justify-center mt-4 space-x-6 text-center">
+    <ul class="flex flex-row items-center space-x-6">
         <li><a href="projects.html" class="text-xl font-semibold text-gray-800 hover:text-gray-600">Projects</a></li>
         <li><a href="contact.html" class="text-xl font-semibold text-gray-800 hover:text-gray-600">Contact</a></li>
         <li><a href="press.html" class="text-xl font-semibold text-gray-800 hover:text-gray-600">Press</a></li>
         <li><a href="about.html" class="text-xl font-semibold text-gray-800 hover:text-gray-600">About Me</a></li>
     </ul>
 </nav>
+
+<!-- Hero Image -->
+<section class="w-full">
+    <img 
+  src="/images/hero.jpg" 
+  alt="Hero Image" 
+  class="w-full h-auto"
+  srcset="/images/hero-300x200.webp 300w, 
+          /images/hero-1060x707.webp 1060w, 
+          /images/hero-1460x973.webp 1460w, 
+          /images/hero-1780x1187.webp 1780w, 
+          /images/hero-2048x1365.webp 2048w"
+  sizes="(max-width: 300px) 300px, 
+         (max-width: 1060px) 1060px, 
+         (max-width: 1460px) 1460px, 
+         (max-width: 1780px) 1780px, 
+         (min-width: 2048px) 2048px">
+</section>
