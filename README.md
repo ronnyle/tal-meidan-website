@@ -5,7 +5,7 @@ install and compile:
 gem install bundler
 bundle install
 npm install
-npm run build:css
+npx tailwindcss -i ./css/style.css -o ./assets/css/main.css --minify
 ```
 
 run:

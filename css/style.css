@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    a {
+        @apply text-gray-600 hover:text-gray-800 visited:text-gray-600;
+    }
+
+    a:visited {
+        @apply text-gray-600;
+    }
+}
